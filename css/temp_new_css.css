@@ -1,0 +1,440 @@
+/*************************************************************************
+
+TEMPLATE
+
+*************************************************************************/
+
+a
+{
+	text-decoration: none;
+	color: purple;
+}
+
+header
+{
+	padding-bottom: 2em;
+}
+
+body
+{
+	font-family: Calibri, Arial, Verdana, Berlin Sans FB, OCR-A BT;
+	font-size: 16px;
+	background: #f0f0f0;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+#template_header, #template_nav, main, #template_footer
+{
+	clear: both;
+	float: left;
+	width: 100%;
+}
+#template_title
+{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 1em;
+}
+#template_profile
+{
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 1em;
+}
+#template_nav
+{
+	background: #333333;
+}
+#template_nav a, #template_nav .temp_a
+{
+	display: box;
+	float: left;
+	background: #f0f0f0;
+	border: 1px solid #333333;
+	padding: 1em;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+main
+{
+	clear: both;
+	float: left;
+}
+#main_content
+{
+	padding: 2em;
+}
+#template_footer
+{
+	text-align: center;
+}
+
+.error
+{
+	color: red;
+	padding: 1em 0;
+}
+
+/*************************************************************************
+
+FORM
+
+*************************************************************************/
+
+#login_form
+{
+	margin: 10em auto;
+	text-align: center;
+	width: 30em;
+}
+
+/*************************************************************************
+
+TABLE
+
+*************************************************************************/
+
+.line
+{
+	clear: both;
+	float: left;
+	padding: 0.5em 0;
+	display: table;
+}
+
+.box
+{
+	float: left;
+	padding: 0 0.5em 0 0;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.box.short
+{
+	width: 4em;
+}
+
+.box.medium
+{
+	width: 14.5em;
+}
+
+.box.long
+{
+	width: 20em;
+}
+
+table
+{ 
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-color: gray;
+    text-align: center;
+    vertical-align: top;
+    font-size: inherit;
+}
+
+:not(#content) > table tbody tr th
+{
+    font-weight: normal;
+}
+
+table tbody tr th
+{
+	border-bottom: 1px solid black;
+}
+
+table tbody tr th, table tbody tr td
+{
+	padding: 0.4em;
+	vertical-align: top;
+}
+
+table tbody tr .product, table tbody tr .info, #product
+{
+	width: 25em;
+}
+
+table tbody tr .number
+{
+	width: 5em;
+}
+
+article.tableHead, article.tableContent, article.form
+{
+	clear: both;
+	display: table;
+}
+
+article.tableContent
+{
+	margin-top: 1em;
+}
+
+article.tableHead .line
+{
+	clear: both;
+	border-bottom: 1px solid black;
+	margin-bottom: 1em;
+	display: table-row;
+}
+
+article.tableContent .line 
+{
+	clear: both;
+	padding: 0;
+	display: table-row;
+}
+
+article.tableContent .line.even, .even
+{
+	background: #999999;
+}
+
+article.tableContent .line.odd, .odd
+{
+	background: #f0f0f0;
+}
+
+article.tableContent .line.foot
+{
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+article.tableContent .line label.sum, .sum
+{
+	border-top: 1px solid black;
+}
+
+article.tableHead .line label.right,
+article.tableContent .line label.right,
+article.tableContent .line.foot .right,
+.right
+{
+	text-align: right;
+}
+
+article.tableHead .line label, article.tableHead .line a,
+article.tableContent .line label, article.tableContent .line a,
+article.tableContent .line input
+{
+	float: left;
+	width: 6em;
+	padding: 0.2em;
+	word-wrap: break-word;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+article.tableHead .line label.printQtySize, article.tableHead .line a.printQtySize,
+article.tableContent .line label.printQtySize, article.tableContent .line a.printQtySize
+{
+	width: 1.7em;
+}
+
+article.tableHead .line label.printPriceSize, article.tableHead .line a.printPriceSize,
+article.tableContent .line label.printPriceSize, article.tableContent .line a.printPriceSize
+{
+	width: 5.5em;
+}
+
+article.tableHead .line label.printProductSize, article.tableHead .line a.printProductSize,
+article.tableContent .line label.printProductSize, article.tableContent .line a.printProductSize
+{
+	width: 6.5em;
+}
+
+article.tableHead .line label.printDoubleProductSize, article.tableHead .line a.printDoubleProductSize,
+article.tableContent .line label.printDoubleProductSize, article.tableContent .line a.printDoubleProductSize
+{
+	width: 13em;
+}
+
+article.tableHead .line label.halfSize, article.tableHead .line a.halfSize,
+article.tableContent .line label.halfSize, article.tableContent .line a.halfSize
+{
+	width: 4em;
+}
+
+article.tableHead .line label.doubleSize, article.tableHead .line a.doubleSize,
+article.tableContent .line label.doubleSize, article.tableContent .line a.doubleSize
+{
+	width: 16em;
+}
+
+article.tableHead .line label.tripleSize, article.tableHead .line a.tripleSize,
+article.tableContent .line label.tripleSize, article.tableContent .line a.tripleSize
+{
+	width: 24em;
+}
+
+article.tableContent .line label.left,
+article.tableContent .line label.left input,
+.left
+{
+	text-align: left;
+}
+
+article.tableContent .line label input
+{
+	display: block;
+    margin : 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+article.form .line .box label
+{
+	float: right;
+	text-align: right;
+}
+
+article.form .line .box input,
+article.form .line .box textarea,
+article.form .line .box select
+{
+	width: 100%;
+}
+
+article.form .line .box textarea
+{
+	height: 5em;
+}
+
+/*************************************************************************
+
+TOTAL
+
+**************************************************************************/
+
+section.total
+{
+	float: right;
+	margin : 2em 0;
+}
+
+section.total .line label
+{
+	text-align: right;
+}
+
+/*************************************************************************
+
+INPUT
+
+**************************************************************************/
+
+label, input, select
+{
+    /* the following ensures they're all using the same box-model for rendering */
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+	height: 1.5em;
+	vertical-align: middle;
+}
+
+input[readonly], input[disabled]
+{
+	background-color: #ebebe4;
+}
+
+input[type=number].short
+{
+	width: 5em;
+}
+
+input[type=number].medium
+{
+	width: 10em;
+}
+
+input[type="checkbox"]
+{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+.submit
+{
+	float: right;
+	margin: 1em;
+}
+
+.backButton
+{
+	float: right;
+	cursor: pointer;
+}
+
+/*************************************************************************
+
+IMAGES
+
+*************************************************************************/
+
+.logo_tulip
+{
+	font-size: 16px;
+	background-image: url('../images/logo_tulip.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12.5em 5.3125em;
+	margin: 0 auto;
+	width: 12.5em;
+	height: 5.3125em;
+}
+
+.icon.truefalse
+{
+	font-size: 16px;
+	background-image: url('../images/button_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+	margin: 0 auto;
+	width: 1em;
+	height: 1em;
+}
+.icon.truefalse.true
+{
+	background-position: left top;
+}
+
+/*************************************************************************
+
+PRINT
+
+**************************************************************************/
+
+.adjust_print#adjust_print_auto
+{
+	margin: 0 auto;
+	width: 99%;
+}
+
+.adjust_print#adjust_print_small
+{
+	width: 17em;
+}
+
+@media print {
+    body
+    {
+        font-size: 12px;
+    }
+
+    .adjust_print#adjust_print_button
+	{
+		display: none;
+	}
+}

@@ -1,0 +1,17 @@
+.welcome{
+		background-color:#858282;
+		width : 100%;
+		font: bold 30px/50px cooper,black;
+		color:white;
+		align:center;
+		opacity: 0.4;
+	}
+	
+	.kotak{
+		background-color:black;
+		color:white;
+	}
+	
+	p{
+		font:5px;
+	}
